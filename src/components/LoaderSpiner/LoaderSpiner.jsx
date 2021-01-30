@@ -1,8 +1,9 @@
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader-spinner';
+import s from './LoaderSpiner.module.css';
 
 const LoaderSpiner = () => {
   return (
-    <div className="LoaderSpiner-container">
+    <div className={s['LoaderSpiner-container']}>
       <Loader
         type="ThreeDots"
         color="#00BFFF"
